@@ -27,9 +27,9 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
-![Versão Desktop](./design/desktop-design.png)
-![Versão Mobile](./design/mobile-design.png)
-![Menu Mobile](./design/mobile-menu.png)
+- [Versão Desktop](./design/desktop-design.png)
+- [Versão Mobile](./design/mobile-design.png)
+- [Menu Mobile](./design/mobile-menu.png)
 
 
 ### Links
