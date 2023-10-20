@@ -14,8 +14,8 @@
 
 <body>
   <div class="container">
-    <header class="header">
-      <img src="./assets/images/logo.svg" alt="Logo"> 
+    <header class="header" data-header>
+      <img src="./assets/images/logo.svg" alt="Logo">
       <ul class="header-menu">
         <li><a href="#">Home</a></li>
         <li><a href="#">New</a></li>
@@ -23,7 +23,20 @@
         <li><a href="#">Trending</a></li>
         <li><a href="#">Categories</a></li>
       </ul>
-      
+      <div class="menu-button" data-menu-button>
+        <span class="bar" data-menu="button"></span>
+        <span class="bar" data-menu="button"></span>
+        <span class="bar" data-menu="button"></span>
+      </div>
+      <div class="overlay" data-overlay>
+        <ul class="menu-mobile" data-menu-mobile>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </div>
     </header>
     <main class="main">
       <article class="intro-container">
@@ -89,6 +102,8 @@
       </section>
     </main>
   </div>
+
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
